@@ -4,55 +4,7 @@
     <meta charset="utf-8">
     <title>Bookshelf</title>
     <link rel="icon" type="image/x-icon" href="bookshelf.png">
-    <style>
-      .section-header {
-        font-size: 2em;
-        font-weight: bold;
-      }
-
-      .tiny-link {
-        font-size: .85em;
-      }
-
-      /* Apply box-sizing to all elements */
-    * {
-      box-sizing: border-box;
-
-    }
-
-    body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-    }
-
-
-   	.container {
-      display: flex;
-      justify-content: center;  /* Horizontal center */
-      align-items: center;      /* Vertical center */
-      /*height: 100vh;*/            /* Full viewport height */
-      background-color: hsla(75, 69.2%, 47.1%, 0.3);
-  }
-
-
-
-    .box {
-      display: inline-block;
-      /*width: 500px;*/
-      padding: 20px;
-      border: 5px solid silver;
-      margin: 30px;
-      background-color: #ffffff;
-      color: #333;
-
-    }
-
-      .link-icon {
-        display: inline-block;
-        border: 1px solid black;
-        margin: 1px;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
      <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.7/dist/htmx.min.js" integrity="sha384-ZBXiYtYQ6hJ2Y0ZNoYuI+Nq5MqWBr+chMrS/RkXpNzQCApHEhOt2aY8EJgqwHLkJ" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -526,7 +478,7 @@
 
         <b>Weis, Margaret</b><br>
         <ol type="I">
-          <b>Starhield (With Tracy Hickman)</b>
+          <b>Starshield (With Tracy Hickman)</b>
           <li>Sentinels (1996)</li>
           <li>Nightsword (1998)</li>
         </ol>
@@ -563,20 +515,20 @@
  <div class="box" id="wishlist">
       <strong class="section-header">Wishlist</strong>
       <p>
-				<ol type="I">
+				<ul>
           <li>13th Paladin Series - Torsten Weitze<a href="" target="_new"><img src="Wikipedia-ico.png"></a></li>
           <li>Harry Potter Series - J.K. Rowling<a href="" target="_new"><img src="Wikipedia-ico.png"></a></li>
           <li>The Riyria Chronicles Series - Michael J. Sulivan<a href="" target="_new"><img src="Wikipedia-ico.png"></a></li>
           <li>Do Androids Dream of Electric Sheep - Philip K. Dick<a href="https://en.wikipedia.org/wiki/Philip_K._Dick" target="_new"><img src="Wikipedia-ico.png"></a></li>
           <li>The Obsidian Trilogy - Mercedes Lackey and James Mallory</li>
-      	</ol>
+      	</ul>
 
 
 <!-- <a href="" target="_new"><img src="Wikipedia-ico.png"></a> -->
-
-
-
     </div> <!-- end of main div -->
+
+
+
 
     <p id="reading">
 
